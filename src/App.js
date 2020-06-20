@@ -12,12 +12,14 @@ import { ContextProvider } from './Context/ContextApi';
 function App() {
   return (
     <ContextProvider>
+      <div className="container">
       <Header/>
       <Balance/>
       <ExpenseIncome/>
       <History/>
       <TransactionList/>
       <AddTransaction/>
+      </div>
       </ContextProvider>
   );
 }

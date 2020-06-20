@@ -9,7 +9,6 @@ const initialTransactions = [
 
 export const Context = createContext(initialTransactions);
 
-
 export const ContextProvider = ({ children }) => {
     let [state, dispatch] = useReducer(TransactionReducer, initialTransactions);
 
@@ -30,7 +29,7 @@ export const ContextProvider = ({ children }) => {
     }
     return (
         <Context.Provider value={{
-            transactions: state.transactions,
+            transactions: state,
             DeleteTransaction,
             AddTransaction
         }}>

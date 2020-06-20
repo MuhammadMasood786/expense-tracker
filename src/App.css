@@ -1,7 +1,7 @@
 .container {
   margin-top: 20px !important;
   max-width: 350px !important;
-  max-height: 1000px;
+  max-height: 1000px !important;
   border: 2px solid #fff;
   box-shadow: 2px 2px 3px grey;
   border-radius: 10px;
@@ -69,4 +69,19 @@ li{
   margin-top: 10px;
   border: 1px solid grey;
   margin-right: 100px;
+}
+.three,.Three{
+  flex: 3;
+  justify-content: end;
+}
+.one{
+  flex: 1;
+}
+.fa-trash:hover,.fa-pencil:hover{
+  
+  color: red !important; 
+  font-size: 20px !important;
+  max-width: 50px;
+  max-height: 50px;
+  
 }
