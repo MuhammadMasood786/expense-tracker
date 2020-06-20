@@ -1,4 +1,8 @@
+body{
+  background-color: rgb(54, 54, 54) !important;
+}
 .container {
+  background-color: #efefef;
   margin-top: 20px !important;
   max-width: 350px !important;
   max-height: 1000px !important;
