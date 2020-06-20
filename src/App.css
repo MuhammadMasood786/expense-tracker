@@ -1,38 +1,72 @@
-.App {
+.container {
+  margin-top: 20px !important;
+  max-width: 350px !important;
+  max-height: 1000px;
+  border: 2px solid #fff;
+  box-shadow: 2px 2px 3px grey;
+  border-radius: 10px;
+  margin: 0px auto;
+  padding: 10px;
+}
+.header {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
+.header > h1 {
+  font-family: "Teko", sans-serif;
+  font-size: 44px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.balance {
+  line-height: 0%;
+  padding: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+.balance > h3 {
+  padding: 10px;
+  font-family: "Teko", sans-serif;
+  font-size: 24px;
+}
+.available {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  margin: 0px auto;
+  border: 2px solid #fff;
+  box-shadow: 2px 2px 3px grey;
+  border-radius: 10px;
+  max-width: 250px;
+  max-height: 80px;
+  padding: 5px;
+  line-height: 0%;
+  justify-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
+.colorText {
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+  color: rgb(38, 255, 38);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.colorText1 {
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+  color: rgb(245, 10, 10);
+}
+.history {
+  line-height: 0%;
+  padding: 10px;
+  font-family: "Teko", sans-serif;
+  font-size: 24px;
+}
+ul{
+  margin-right: 40px;
+  width: 100%;
+}
+li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid grey;
+  margin-right: 100px;
 }
